@@ -8,16 +8,11 @@
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="20"
+        android:background="@android:color/black"
         android:orientation="vertical">
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="30"
-            android:gravity="bottom"
             android:text="Foreign Currency"
-            android:textColor="#ff22e9ff"/>
+            style="@style/label.curr" />
         <Spinner
             android:id="@+id/spn_for"
             android:layout_width="fill_parent"
@@ -31,11 +26,9 @@
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight="15"
             android:gravity="bottom"
             android:text="Enter foreign currency amount here:"
-            android:textColor="#666"
-            android:textSize="12sp"/>
+            style="@style/label.desc" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -73,16 +66,12 @@
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="20"
-        android:orientation="vertical">
+        android:orientation="vertical"
+
+        >
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="30"
-            android:gravity="bottom"
             android:text="Home Currency"
-            android:textColor="#ff22e9ff"/>
+            style="@style/layout_back" />
         <Spinner
             android:id="@+id/spn_hom"
             android:layout_width="fill_parent"
